@@ -19,3 +19,8 @@ async def ping(ctx):
 
 
 bot.run(token)
+
+
+@bot.command()
+async def hello(ctx):
+    await ctx.send('thank you')
