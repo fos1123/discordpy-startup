@@ -1,4 +1,3 @@
-
 import traceback
 
 bot = commands.Bot(command_prefix='/')
